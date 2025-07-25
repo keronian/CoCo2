@@ -2,6 +2,10 @@
 
 Edit: Modified the board to TRY to make it compatible with the horizontal RF modulator... Unfortunately, I don't have the measurements, so I'm guessing about the header placement.  I also put in a 3.5mm jack for the output and wired it in so you don't have to bodge wire it.  If someone can verify or update the pin placement, that'd be amazing.  Ground pin is still needed as per the original.  This is the first time I've tried doing any major edits with Eagle, so... hopefully you'll forgive the fact that I swapped everything to the underside of the board... (I had originally thought the pinouts were the same for the horizontal board and was trying to keep the placement)
 
+https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list I used - Please note that the transistors on the list can be used to replace BC557 and BC547, but they're oriented the other way.
+
+I also uploaded a KiCad version of the board that just references the "proper" transistors and wouldn't need to be flipped.
+
 ## February 8, 2020
 
 This is my collection area for Tandy Color Computer 2 Projects.  I've only got one at the moment.  It's a composite video mod for the CoCo 2.  The CoCo was designed 
