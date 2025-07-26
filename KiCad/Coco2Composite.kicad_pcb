@@ -145,7 +145,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C3"
-			(at 1.35 1.6 0)
+			(at 1.25 1.8 0)
 			(layer "F.SilkS")
 			(uuid "5859f86f-5d59-4618-8b39-b362c45d46c9")
 			(effects
@@ -346,7 +346,7 @@
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
 		(property "Reference" "J3"
-			(at 6.89882 -1.716919 0)
+			(at 0 -9.1 0)
 			(layer "F.SilkS")
 			(uuid "f893444d-0863-4e1c-90ef-3773c0c4c62d")
 			(effects
@@ -949,7 +949,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R6"
-			(at 2.54 -1.92 90)
+			(at 2.54 1.7 90)
 			(layer "F.SilkS")
 			(uuid "715626b9-95c1-4f48-94d9-922142a83ad8")
 			(effects
@@ -2148,7 +2148,7 @@
 		(descr "Potentiometer, vertical, Bourns 3266Y, https://www.bourns.com/docs/Product-Datasheets/3266.pdf")
 		(tags "Potentiometer vertical Bourns 3266Y")
 		(property "Reference" "R3"
-			(at -2.54 -3.41 90)
+			(at 1.76 -0.1 180)
 			(layer "F.SilkS")
 			(uuid "d0da4865-9cc9-487d-8da9-f7a2eeaf8a19")
 			(effects
@@ -3088,7 +3088,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
-			(at 2.54 -1.92 90)
+			(at 2.54 1.8 90)
 			(layer "F.SilkS")
 			(uuid "56babecc-46ec-48c6-999d-797bb06a5afb")
 			(effects
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 2.54 1.92 90)
+			(at 2.54 0 90)
 			(layer "F.SilkS")
 			(uuid "7b54f1d3-21e8-49ab-bb00-f3b7fed5b398")
 			(effects
@@ -3312,7 +3312,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R5"
-			(at 2.54 -1.92 90)
+			(at 2.54 1.9 90)
 			(layer "F.SilkS")
 			(uuid "676f0f60-8e09-4329-b444-a06d30c7ffd3")
 			(effects
@@ -3323,8 +3323,8 @@
 			)
 		)
 		(property "Value" "470"
-			(at 2.54 1.92 90)
-			(layer "F.Fab")
+			(at 2.54 0 90)
+			(layer "F.SilkS")
 			(uuid "a73a011b-f3c5-443e-89af-c2d31b0be26f")
 			(effects
 				(font
@@ -3536,7 +3536,7 @@
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 90)
+			(at 1.14 3.04 0)
 			(layer "F.SilkS")
 			(uuid "a00904e1-53bf-4e13-8ded-6138e4d2b94b")
 			(effects
@@ -3547,7 +3547,7 @@
 			)
 		)
 		(property "Value" "2N2222"
-			(at 1.27 2.79 90)
+			(at 4.64 0.44 0)
 			(layer "F.SilkS")
 			(uuid "36d46b07-705e-4456-9e1e-e4f7e3b028ee")
 			(effects
@@ -3755,7 +3755,7 @@
 		(descr "Potentiometer, vertical, Bourns 3266Y, https://www.bourns.com/docs/Product-Datasheets/3266.pdf")
 		(tags "Potentiometer vertical Bourns 3266Y")
 		(property "Reference" "R2"
-			(at -2.54 -3.41 90)
+			(at 1.82 0.1 0)
 			(layer "F.SilkS")
 			(uuid "ce42ed5c-6120-4a15-8a0d-c5c52829e214")
 			(effects
@@ -3975,7 +3975,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R7"
-			(at 2.54 1.8 0)
+			(at 2.54 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "c9a3769d-d083-40dc-9561-721f3dc399c0")
 			(effects
@@ -4199,7 +4199,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
-			(at 2.54 -1.92 0)
+			(at 2.54 2 0)
 			(layer "F.SilkS")
 			(uuid "9691e021-abf5-4cea-a0c9-9be43cbb27a3")
 			(effects
