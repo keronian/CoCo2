@@ -1,4 +1,4 @@
-25228243665056691
+25208957173012450
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6544,83 +6544,6 @@ capacitor tantalum
 0
 2
 2
-Coco2Composite
-2,54_0,8_412
-THROUGH-HOLE PAD
-
-0
-1
-1
-Coco2Composite
-0204V_348
-RESISTOR{return}{return}type 0204, grid 2.5 mm
-
-0
-2
-2
-Coco2Composite
-AUDIO-JACK_513
-3.5mm Stereo Audio Jack{return}{return}Specifications:{return}{return}• Pin count:5{return}{return}Datasheet referenced for footprint{return}{return}Example device(s):{return}{return}• Audio_Jack
-
-0
-5
-5
-Coco2Composite
-B25U_331
-POTENTIOMETER{return}{return}Beckman Helitrim 25
-
-0
-3
-3
-Coco2Composite
-C025-024X044_348
-CAPACITOR{return}{return}grid 2.5 mm, outline 2.4 x 4.4 mm
-
-0
-2
-2
-Coco2Composite
-DIP14
-DIP14
-
-0
-14
-14
-Coco2Composite
-DO41-10_210
-DIODE{return}{return}diameter 2.54 mm, horizontal, grid 10.16 mm
-
-0
-2
-2
-Coco2Composite
-MA03-1_162
-PIN HEADER
-
-0
-3
-3
-Coco2Composite
-MA05-1_162
-PIN HEADER
-
-0
-5
-5
-Coco2Composite
-TO92-EBC_399
-TO-92{return}{return}grid 5.08 mm
-
-0
-3
-3
-Coco2Composite
-TO92_398
-TO 92
-
-0
-3
-3
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
