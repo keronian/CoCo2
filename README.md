@@ -1,10 +1,9 @@
 # CoCo2
 
-Edit: Modified the board to TRY to make it compatible with the horizontal RF modulator... Header placement and board size are estimates based on a schematic I found online, but have not been verified.  I also put in a 3.5mm jack for the output and wired it in so you don't have to bodge wire it.  If someone can verify or update the pin placement, that'd be amazing.  Ground pin is still needed as per the original.  This is the first time I've tried doing any major edits with Eagle, so... hopefully you'll forgive the fact that I swapped everything to the underside of the board... (I had originally thought the pinouts were the same for the horizontal board and was trying to keep the placement)
+Edit: Re-did the whole board in KiCad.  Modified it to TRY to make it compatible with the horizontal RF modulator... Header placement and board size are estimates based on a schematic I found online, but have not been verified.  I also put in a 3.5mm jack for the output and wired it in so you don't have to bodge wire it.  If someone can verify or update the pin placement, that'd be amazing.  Ground pin is still needed as per the original.  This is the first time I've tried doing anything with KiCad, so... hopefully it's not terrible.
 
-https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list I used - Please note that the transistors on the list can be used to replace BC557 and BC547, but they're oriented the other way.
+https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list I used for the older vertical version of the board, except I updated the transistors to make sure they were options that would be available, and I added the audio jack that should fit the footprint I had on the board.
 
-I also uploaded a KiCad version of the board that just references the "proper" transistors and wouldn't need to be flipped.
 
 ## February 8, 2020
 
