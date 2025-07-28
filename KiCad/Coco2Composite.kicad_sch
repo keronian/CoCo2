@@ -5248,7 +5248,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.7mm_Pad"
 			(at 139.7 160.02 0)
 			(effects
 				(font
