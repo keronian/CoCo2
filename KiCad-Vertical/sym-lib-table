@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Coco2Composite-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Coco2Composite-eagle-import.kicad_sym")(options "")(descr ""))
+)
