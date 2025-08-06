@@ -105,7 +105,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at 3.81 -2.33 0)
+			(at 3.805 17.72 0)
 			(layer "F.SilkS")
 			(uuid "b434032a-3f94-42c7-b828-6283754a97a7")
 			(effects
@@ -116,8 +116,8 @@
 			)
 		)
 		(property "Value" "MC1372"
-			(at 3.81 17.57 0)
-			(layer "F.Fab")
+			(at 3.805 7.62 90)
+			(layer "F.SilkS")
 			(uuid "f53a9213-32e5-47ad-9a8a-62fcd6573d9a")
 			(effects
 				(font
@@ -277,7 +277,7 @@
 			(uuid "f77954de-5c48-4f34-b963-cd6b83721484")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 7.62 90)
+			(at 2.505 7.62 90)
 			(layer "F.Fab")
 			(uuid "2ef06cce-8d67-4fa0-b6d8-65c322b81366")
 			(effects
@@ -473,8 +473,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at -2.54 3.67 90)
-			(layer "F.Fab")
+			(at -6.598043 -3.7189 90)
+			(layer "F.SilkS")
 			(uuid "9ae75201-f1b0-4d42-95cb-dab0f854f901")
 			(effects
 				(font
@@ -671,7 +671,7 @@
 		)
 		(property "Value" "22nF"
 			(at 1.25 2.25 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "6189887e-36ec-4dac-b2df-ea7d28be28bd")
 			(effects
 				(font
@@ -900,7 +900,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 2.54 -3.56 90)
+			(at 1.44 -3.792265 0)
 			(layer "F.SilkS")
 			(uuid "100588d9-136a-42f2-8e7a-27735a2ab2cd")
 			(effects
@@ -911,8 +911,8 @@
 			)
 		)
 		(property "Value" "PN2907"
-			(at 2.54 2.79 90)
-			(layer "F.Fab")
+			(at -1.86 -0.592265 0)
+			(layer "F.SilkS")
 			(uuid "1974b234-0fe5-4694-95b6-b8424a437104")
 			(effects
 				(font
@@ -1147,7 +1147,7 @@
 		)
 		(property "Value" "75"
 			(at 1.27 1.92 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "2b089608-73a7-4d71-9507-a5a28df454e0")
 			(effects
 				(font
@@ -1333,7 +1333,7 @@
 		)
 		(property "Value" "3.3k"
 			(at -2.54 3.67 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "9a34593d-46f9-4076-9f2a-d5f69b213fbd")
 			(effects
 				(font
@@ -1530,7 +1530,7 @@
 		)
 		(property "Value" "470"
 			(at 1.27 1.92 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3a1239d2-9c96-4b7e-a1e4-9c0eb8625348")
 			(effects
 				(font
@@ -1716,7 +1716,7 @@
 		)
 		(property "Value" ".1uF"
 			(at 1.25 2.25 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "788f7600-bb43-46f6-b226-83aef525fb40")
 			(effects
 				(font
@@ -1945,7 +1945,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1-1N4001"
-			(at 5.08 -2.47 0)
+			(at 6.4279 -2.6796 0)
 			(layer "F.SilkS")
 			(uuid "f2070d74-b3a9-4df9-bf8e-7c0e708fdb87")
 			(effects
@@ -2285,7 +2285,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -2.25 90)
+			(at -1.95 0 180)
 			(layer "F.SilkS")
 			(uuid "b60917d8-35e6-4850-b318-e7be66c0dab4")
 			(effects
@@ -2297,7 +2297,7 @@
 		)
 		(property "Value" "10nF"
 			(at 1.25 2.25 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "4caac82a-89e5-4e3b-8146-6133772221da")
 			(effects
 				(font
@@ -2537,8 +2537,8 @@
 			)
 		)
 		(property "Value" "360"
-			(at 1.27 1.92 90)
-			(layer "F.Fab")
+			(at 5.148364 -0.024099 90)
+			(layer "F.SilkS")
 			(uuid "f8c86f33-cf7a-4182-bada-dee52b23bf93")
 			(effects
 				(font
@@ -2712,7 +2712,7 @@
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
 		(property "Reference" "J2"
-			(at 0 -8.8 90)
+			(at -7.256239 -2.109764 0)
 			(layer "F.SilkS")
 			(uuid "9137bd33-1b0e-4f4b-ab03-ce56bc33db26")
 			(effects
@@ -3314,7 +3314,7 @@
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 90)
+			(at -2.477738 -0.517089 90)
 			(layer "F.SilkS")
 			(uuid "b29243fe-5346-4d44-9db9-472219f3ee81")
 			(effects
@@ -3326,7 +3326,7 @@
 		)
 		(property "Value" "2N2222"
 			(at 1.27 2.79 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "bf797770-8570-4f39-8f1c-34ffbb154ca8")
 			(effects
 				(font
@@ -3545,7 +3545,7 @@
 		)
 		(property "Value" "3k9"
 			(at 1.27 1.92 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "a2dfa142-701c-425a-9e3e-ffe339ad065b")
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J1"
 			(at 0 -2.38 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "53a7f581-2748-43b9-a0f8-082d2a229ba2")
 			(effects
 				(font
@@ -4049,7 +4049,7 @@
 		)
 		(property "Value" "3k3"
 			(at 1.27 1.92 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "fedd0552-29c9-4768-8fbc-299be13b24c7")
 			(effects
 				(font
@@ -4234,8 +4234,8 @@
 			)
 		)
 		(property "Value" "1k"
-			(at -2.54 3.67 90)
-			(layer "F.Fab")
+			(at -6.68 -3.7 90)
+			(layer "F.SilkS")
 			(uuid "91f65bab-b6ec-433a-a6d4-190f46a2e735")
 			(effects
 				(font
