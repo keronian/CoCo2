@@ -145,7 +145,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C3"
-			(at -2.25 -0.7 0)
+			(at -2.45 -0.6 0)
 			(layer "F.SilkS")
 			(uuid "af296ce5-0892-41b8-9019-1737dc4fe257")
 			(effects
@@ -156,7 +156,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at -1.85 1.7 0)
+			(at -2.55 0.7 0)
 			(layer "F.SilkS")
 			(uuid "e4634bde-1924-4791-8556-ece9d68b3215")
 			(effects
@@ -346,7 +346,7 @@
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
 		(property "Reference" "J3"
-			(at 7 -7.1 0)
+			(at 7.037524 -5.9342 0)
 			(layer "F.SilkS")
 			(uuid "276c4ebd-bee1-45dd-9f99-482b43ee5c80")
 			(effects
@@ -2514,7 +2514,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at -2.027743 0 0)
+			(at 3.92 17.72 0)
 			(layer "F.SilkS")
 			(uuid "1abd4fb8-c356-4ed6-a967-8694e8ea0227")
 			(effects
@@ -3072,7 +3072,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.81 -2.37 90)
+			(at 4.11 2.4 90)
 			(layer "F.SilkS")
 			(uuid "21694a6f-a11b-4291-8a8f-cb83a295ce7b")
 			(effects
@@ -3819,7 +3819,7 @@
 		(descr "Potentiometer, vertical, Bourns 3266Y, https://www.bourns.com/docs/Product-Datasheets/3266.pdf")
 		(tags "Potentiometer vertical Bourns 3266Y")
 		(property "Reference" "R2"
-			(at 1.82 0.9 0)
+			(at -3.88 3.6 0)
 			(layer "F.SilkS")
 			(uuid "bb4bf019-4ebf-400a-a879-38ed3fdefb92")
 			(effects
@@ -4303,7 +4303,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 3.81 -2.37 180)
+			(at 3.9 2.2 180)
 			(layer "F.SilkS")
 			(uuid "7d1716f6-38f8-498f-b1f6-28141c934b23")
 			(effects
@@ -4568,7 +4568,7 @@
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
 			(at -1.4 2.62 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e7961065-44c6-4279-9e1c-8fd7f92e8a0a")
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J2"
 			(at -1.4 2.32 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7bab0af4-68c4-406f-af92-e372efaf6f99")
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 		)
 	)
 	(gr_text "CLK"
-		(at 129.34 119 90)
+		(at 129.3 119.8 90)
 		(layer "F.SilkS")
 		(uuid "201f6cdc-6137-49bc-980f-081c75293a85")
 		(effects
@@ -5227,7 +5227,7 @@
 		)
 	)
 	(gr_text "TRS-80 COCO 2\nCOMPOSITE VIDEO"
-		(at 154.9 92 0)
+		(at 119.6 123.6 90)
 		(layer "F.SilkS")
 		(uuid "88859cf9-7854-4c5c-a3ef-09f63419ee5d")
 		(effects
@@ -5239,7 +5239,7 @@
 		)
 	)
 	(gr_text "VCC"
-		(at 124.04 119 90)
+		(at 124.3 119.7 90)
 		(layer "F.SilkS")
 		(uuid "b3e71305-5d9a-4d94-a1af-d2b7a4535546")
 		(effects
