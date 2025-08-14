@@ -1,6 +1,8 @@
 # CoCo2
 
-Edit: Re-did the whole board in KiCad.  There are two versions, the vertical one that's mostly just an import from calphool's, and the second which was modified to make it compatible with the horizontal RF modulator... board has been verified to work, pictures will be up soon-ish.  On the vertical one, I did put in a 3.5mm jack for the output and wired it in so you don't have to bodge wire it.  Horizontal board is mounted by taking a solder lug, bending the tab 90 degrees, and screwing it up into the board.  Grounding seems to work great so far, we'll see if I have issues with it backing out.  This is the first time I've tried doing anything with KiCad, so... hopefully it's not terrible.
+Edit: Re-did the whole board in KiCad.  There are two versions, the vertical one that's mostly just an import from calphool's, and the second which was modified to make it compatible with the horizontal RF modulator... board has been verified to work, pictures will be up soon-ish.  On the vertical one, I did put in a 3.5mm jack for the output and wired it in so you don't have to bodge wire it.  Horizontal board is mounted by taking a solder lug, bending the tab 90 degrees, and screwing it up into the board through the standoff (which should be soldered from the top for the best strength).
+![Lug Mount](solder_lug_mount.jpg?raw=true)
+Grounding seems to work great so far, we'll see if I have issues with it backing out.  This is the first time I've tried doing anything with KiCad, so... hopefully it's not terrible.
 
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.
 
