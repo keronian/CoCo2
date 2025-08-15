@@ -6,6 +6,8 @@ Re-did the whole board in KiCad.  There are two versions, the vertical one that'
 ![Lug Mount](solder_lug_mount.jpg?raw=true)
 Grounding seems to work great so far, we'll see if I have issues with it backing out.  This is the first time I've tried doing anything with KiCad, so... hopefully it's not terrible.
 
+Okay, latest version is a LITTLE experimental, with some advice from captainkirchoff in Discord, I've tweaked some resistors and added a circuit that MIGHT work for letting the channel select switch disable color.  The version from 8/14 is mostly fine, but I DID swap the silkscreens for R7 and R5, so be aware of that if you order it.
+
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.
 
 
