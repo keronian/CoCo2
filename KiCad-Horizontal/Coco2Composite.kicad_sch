@@ -5,215 +5,6 @@
 	(uuid "10b578e1-d913-42e6-b9e5-398116858bd9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Coco2Composite-eagle-import:1N4004"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 2.54 -2.3114 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Coco2Composite:DO41-10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DIODE\n\ngeneral purpose rectifier, 1 A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4004_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "SpiceOrder 1"
-					(at -2.54 0 0)
-					(effects
-						(font
-							(size 0.4064 0.3454)
-						)
-					)
-				)
-				(text "SpiceOrder 2"
-					(at 2.54 0 0)
-					(effects
-						(font
-							(size 0.4064 0.3454)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Coco2Composite-eagle-import:2,54/0,8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1091,98 +882,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Coco2Composite-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Coco2Composite-eagle-import:MA03-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2011,634 +1710,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Coco2Composite-eagle-import:R-US_0204/2V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Coco2Composite:0204V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0204/2V_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Coco2Composite-eagle-import:TRIM_US-B25U"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -5.08 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Coco2Composite:B25U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "POTENTIOMETER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TRIM_US-B25U_1_0"
-				(polyline
-					(pts
-						(xy -1.016 3.81) (xy 0 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.572) (xy -1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.016 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.016 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -3.429) (xy 2.032 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -2.159) (xy 2.667 -3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -4.699) (xy 2.032 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -3.429) (xy 1.397 -3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Coco2Composite-eagle-import:VCC"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_1_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2779,18 +1850,791 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim_US"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 134.62 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "083b5c2e-0703-4b78-9283-ac97a88d7506")
-	)
-	(junction
-		(at 238.76 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29386551-3277-4ef0-9d27-5439a61d3020")
 	)
 	(junction
 		(at 153.67 95.25)
@@ -2811,12 +2655,6 @@
 		(uuid "54fb4795-e60f-4364-bd70-66c96b7335d3")
 	)
 	(junction
-		(at 171.45 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5897379b-9640-4c46-9c1d-db10837d9367")
-	)
-	(junction
 		(at 259.08 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2827,6 +2665,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81b98d96-6507-423f-897c-4c4823763f67")
+	)
+	(junction
+		(at 171.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "852f6590-35e7-41db-8db6-6f0a7f793bd8")
 	)
 	(junction
 		(at 226.06 144.78)
@@ -2841,10 +2685,10 @@
 		(uuid "c09336b0-2465-4938-860f-247c035a38f5")
 	)
 	(junction
-		(at 119.38 68.58)
+		(at 120.65 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9a96769-9058-4538-b562-6f53c2a717f0")
+		(uuid "c3674446-52d3-4c20-a3ac-f5c3d7320d57")
 	)
 	(junction
 		(at 238.76 109.22)
@@ -2853,16 +2697,26 @@
 		(uuid "e42f7a2f-a7ed-4ca1-8c9c-cfe4327e3149")
 	)
 	(junction
-		(at 113.03 172.72)
+		(at 238.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3604ab4-e1b7-4aad-a77b-e447473c55f4")
+		(uuid "ed812558-0250-4a02-93ee-f95e6a663b1a")
 	)
 	(junction
 		(at 200.66 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8e85b47-44a2-4409-b914-2db71de0fac9")
+	)
+	(wire
+		(pts
+			(xy 259.08 100.33) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d1866d-6150-4231-b7a8-aa1db0894fa3")
 	)
 	(wire
 		(pts
@@ -2896,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04745ca1-eea1-446f-96bd-c9efaef5b96b")
+	)
+	(wire
+		(pts
 			(xy 180.34 40.64) (xy 180.34 71.12)
 		)
 		(stroke
@@ -2913,6 +2777,16 @@
 			(type default)
 		)
 		(uuid "07f5c311-7932-45ef-ac85-2396e86f7774")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9a9be2-6764-42c9-adb1-00def0fee83e")
 	)
 	(wire
 		(pts
@@ -2956,13 +2830,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 161.29) (xy 120.65 167.64)
+			(xy 134.62 53.34) (xy 134.62 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11b1f6f5-512f-4645-bf0d-9c3cf00b7316")
+		(uuid "117e4a8a-8721-4a49-b1ea-88b79b7449b3")
 	)
 	(wire
 		(pts
@@ -2986,17 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 172.72) (xy 115.57 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19c0060d-b7b0-4685-a918-8246512a5324")
-	)
-	(wire
-		(pts
-			(xy 104.14 68.58) (xy 119.38 68.58)
+			(xy 104.14 68.58) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -3016,13 +2880,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 134.62 53.34)
+			(xy 200.66 114.3) (xy 200.66 118.11)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "2227cbfa-b78e-4635-befc-cfd6e5d49660")
+		(uuid "21932637-526a-4199-bf75-385e6f6e46d7")
 	)
 	(wire
 		(pts
@@ -3086,6 +2950,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 125.73) (xy 200.66 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "308de5e9-4b68-494b-ad07-1f7da2dbfb6f")
+	)
+	(wire
+		(pts
 			(xy 156.21 130.81) (xy 156.21 161.29)
 		)
 		(stroke
@@ -3106,13 +2980,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 165.1) (xy 88.9 168.91)
+			(xy 167.64 95.25) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32cc212b-750d-417c-bd41-d36d6707f706")
+		(uuid "3568a34c-a170-4e7b-aeba-ead6397e7ff6")
 	)
 	(wire
 		(pts
@@ -3123,6 +2997,16 @@
 			(type default)
 		)
 		(uuid "3bb68c93-c190-473b-9a84-ab903114513b")
+	)
+	(wire
+		(pts
+			(xy 259.08 88.9) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3d3f6121-b824-47b4-bd85-0fe4d9384bd6")
 	)
 	(wire
 		(pts
@@ -3156,6 +3040,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 172.72) (xy 128.27 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c589ca6-4408-4ab0-81a0-0ec9ccc81eee")
+	)
+	(wire
+		(pts
 			(xy 259.08 104.14) (xy 264.16 104.14)
 		)
 		(stroke
@@ -3166,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 180.34 114.3)
+			(xy 176.53 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -3176,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 104.14 91.44)
+			(xy 104.14 91.44) (xy 116.84 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -3233,6 +3127,26 @@
 			(type solid)
 		)
 		(uuid "5629d4b4-9eae-4317-8e23-1232ff780d02")
+	)
+	(wire
+		(pts
+			(xy 262.89 96.52) (xy 264.16 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5def2e53-e32f-4a77-9731-773b1438f3bd")
+	)
+	(wire
+		(pts
+			(xy 120.65 161.29) (xy 120.65 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609696a1-e79c-4e74-9899-3700c1bd7332")
 	)
 	(wire
 		(pts
@@ -3346,17 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 119.38 76.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7fa64aa9-814b-485b-bcbf-bb4060a05bde")
-	)
-	(wire
-		(pts
-			(xy 142.24 134.62) (xy 142.24 119.38)
+			(xy 142.24 116.84) (xy 142.24 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -3373,16 +3277,6 @@
 			(type solid)
 		)
 		(uuid "82207c10-4476-40ea-b69b-251b48ef9466")
-	)
-	(wire
-		(pts
-			(xy 119.38 68.58) (xy 134.62 68.58)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "82f159c8-5a77-47c7-8bc0-d8c41f53294c")
 	)
 	(wire
 		(pts
@@ -3416,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 172.72) (xy 113.03 172.72)
+			(xy 104.14 172.72) (xy 116.84 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3433,16 +3327,6 @@
 			(type solid)
 		)
 		(uuid "9bb25427-ea5d-485b-8585-71cf1d5f14d4")
-	)
-	(wire
-		(pts
-			(xy 134.62 95.25) (xy 153.67 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c38b60f-a5f3-44b2-aacf-55c4563181d6")
 	)
 	(wire
 		(pts
@@ -3473,16 +3357,6 @@
 			(type solid)
 		)
 		(uuid "9e5dcd00-4efa-4feb-860e-d2b6c7424754")
-	)
-	(wire
-		(pts
-			(xy 190.5 114.3) (xy 200.66 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9f81e307-1c77-434d-bb57-fa9985df1974")
 	)
 	(wire
 		(pts
@@ -3556,23 +3430,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 156.21 95.25)
+			(xy 153.67 95.25) (xy 160.02 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a901624e-a4f5-48e8-9e46-bf698aff5425")
-	)
-	(wire
-		(pts
-			(xy 200.66 114.3) (xy 200.66 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "aa26e88c-a8d3-481d-95a3-654d564c530a")
 	)
 	(wire
 		(pts
@@ -3586,13 +3450,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 109.22) (xy 238.76 116.84)
+			(xy 238.76 109.22) (xy 238.76 119.38)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "b3575380-4150-4bd9-ace4-973f1a922403")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cf3165-5b73-417f-a590-33090c62c8fe")
 	)
 	(wire
 		(pts
@@ -3646,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 95.25) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb804042-509f-4da5-b54e-a17668cd0565")
+	)
+	(wire
+		(pts
 			(xy 259.08 104.14) (xy 259.08 144.78)
 		)
 		(stroke
@@ -3696,7 +3580,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 119.38 95.25)
+			(xy 119.38 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0.1524)
@@ -3736,6 +3620,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 165.1) (xy 88.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83babdd-4f68-4400-b032-89a54d2e19a6")
+	)
+	(wire
+		(pts
 			(xy 48.26 127) (xy 116.84 127)
 		)
 		(stroke
@@ -3746,13 +3640,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 68.58) (xy 119.38 71.12)
+			(xy 134.62 43.18) (xy 134.62 53.34)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "dd18ba55-d607-40f6-a48e-63d4a8f5aff3")
+		(uuid "df571ff7-fa01-4a09-856f-537edb7fa434")
 	)
 	(wire
 		(pts
@@ -3816,7 +3710,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 81.28) (xy 238.76 88.9)
+			(xy 120.65 68.58) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea511bf6-ddcf-4842-b218-ba57917385e5")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -3826,23 +3730,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 200.66 114.3)
+			(xy 104.14 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7bf14d8-195c-4206-afa3-b1692699be92")
+	)
+	(wire
+		(pts
+			(xy 200.66 114.3) (xy 218.44 114.3)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "fec2dd73-a1e6-4acd-9c99-93f7d0ceea49")
-	)
-	(wire
-		(pts
-			(xy 163.83 81.28) (xy 163.83 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fecb16e5-d24d-41f4-a4a9-bf3e4039f71c")
 	)
 	(wire
 		(pts
@@ -4015,8 +3919,8 @@
 		(uuid "e9afd22f-a1cd-4392-be76-21a51555a15e")
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 220.98 114.3 180)
+		(lib_id "Device:R_US")
+		(at 222.25 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4024,7 +3928,7 @@
 		(dnp no)
 		(uuid "17888d4e-c122-41a1-b0b8-0a06707d5b22")
 		(property "Reference" "R6"
-			(at 224.79 115.7986 0)
+			(at 223.774 110.236 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4033,7 +3937,7 @@
 			)
 		)
 		(property "Value" "3k9"
-			(at 224.79 110.998 0)
+			(at 224.028 116.332 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4042,7 +3946,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 220.98 114.3 0)
+			(at 222.504 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,8 +3954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 220.98 114.3 0)
+		(property "Datasheet" "~"
+			(at 222.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,8 +3963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 114.3 0)
+		(property "Description" "Resistor, US symbol"
+			(at 222.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,8 +4066,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 238.76 134.62 0)
+		(lib_id "power:GND")
+		(at 238.76 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4171,7 +4075,7 @@
 		(dnp no)
 		(uuid "26c8bf23-6d68-414a-b346-a92e70cc8032")
 		(property "Reference" "#GND5"
-			(at 238.76 134.62 0)
+			(at 238.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 137.16 0)
+			(at 236.22 136.906 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4189,7 +4093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 134.62 0)
+			(at 238.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 134.62 0)
+			(at 238.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,8 +4110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 238.76 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,8 +4132,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 35.56 91.44 270)
+		(lib_id "power:GND")
+		(at 38.1 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4237,7 +4141,7 @@
 		(dnp no)
 		(uuid "2e9cc56a-4e82-4da6-874e-226193c787e3")
 		(property "Reference" "#GND4"
-			(at 35.56 91.44 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 88.9 0)
+			(at 33.782 89.154 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4255,7 +4159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 91.44 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 91.44 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,8 +4176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 35.56 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 116.84 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4338,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -4429,8 +4333,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 185.42 114.3 180)
+		(lib_id "Device:R_US")
+		(at 185.42 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4438,7 +4342,7 @@
 		(dnp no)
 		(uuid "55247419-9c45-4919-9f16-23c14187ca93")
 		(property "Reference" "R7"
-			(at 189.23 115.7986 0)
+			(at 186.944 116.332 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4447,7 +4351,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 189.23 110.998 0)
+			(at 187.198 110.49 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4456,6 +4360,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 185.674 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -4464,16 +4377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -4571,8 +4475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 134.62 58.42 90)
+		(lib_id "Device:R_US")
+		(at 134.62 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4580,7 +4484,7 @@
 		(dnp no)
 		(uuid "6a58e330-853b-47ea-81f5-63ee86e94cb5")
 		(property "Reference" "R1"
-			(at 133.1214 62.23 0)
+			(at 131.318 56.642 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4589,7 +4493,7 @@
 			)
 		)
 		(property "Value" "360"
-			(at 137.922 62.23 0)
+			(at 136.144 56.134 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4598,6 +4502,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 133.604 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -4606,16 +4519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -4640,8 +4544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 171.45 116.84 0)
+		(lib_id "power:GND")
+		(at 171.45 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4649,7 +4553,7 @@
 		(dnp no)
 		(uuid "76a090e2-8303-4e27-9c47-941f625ba0e1")
 		(property "Reference" "#GND6"
-			(at 171.45 116.84 0)
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4562,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 119.38 0)
+			(at 169.164 118.872 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4667,7 +4571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 116.84 0)
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 116.84 0)
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,8 +4588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 171.45 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 134.62 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4750,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 134.62 43.18 0)
 			(effects
 				(font
@@ -4772,8 +4676,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:TRIM_US-B25U")
-		(at 163.83 95.25 90)
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 163.83 95.25 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4781,7 +4686,7 @@
 		(dnp no)
 		(uuid "86451bd5-310b-46f8-9712-105c4ce2625d")
 		(property "Reference" "R8"
-			(at 166.37 100.33 90)
+			(at 161.29 100.33 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4790,7 +4695,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 166.37 97.79 90)
+			(at 161.29 97.79 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4807,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -4816,7 +4721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trim-potentiometer, US symbol"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -4825,13 +4730,13 @@
 				(hide yes)
 			)
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "35b5df29-8c50-43b0-9e8e-5c5e87f412a7")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "b6d17539-eeee-48cd-b199-008004422284")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "defebd54-8ff1-4ce0-aa2c-9333c934ce20")
 		)
 		(instances
@@ -4844,8 +4749,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:1N4004")
-		(at 119.38 73.66 270)
+		(lib_id "Diode:1N4148")
+		(at 120.65 72.39 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4853,7 +4759,7 @@
 		(dnp no)
 		(uuid "86944275-65a9-4fdd-b05f-cdaf1fc84f8d")
 		(property "Reference" "D1-1N4148"
-			(at 122.4026 68.58 0)
+			(at 122.428 79.248 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4862,7 +4768,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 114.5286 68.58 0)
+			(at 117.094 77.216 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4870,8 +4776,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P10.16mm_Horizontal"
-			(at 119.38 73.66 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 120.65 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,8 +4785,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 73.66 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 120.65 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,8 +4794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 73.66 0)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 120.65 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,10 +4803,28 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(property "Sim.Device" "D"
+			(at 126.238 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127.762 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "7e78c28e-d215-4fa6-8a6c-a8cf8fadd06f")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "25e9d1c0-8c62-42c5-b2a7-b169fa4ef169")
 		)
 		(instances
@@ -4913,7 +4837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:TRIM_US-B25U")
+		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 259.08 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4948,7 +4872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 259.08 96.52 0)
 			(effects
 				(font
@@ -4957,7 +4881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trim-potentiometer, US symbol"
 			(at 259.08 96.52 0)
 			(effects
 				(font
@@ -4966,13 +4890,13 @@
 				(hide yes)
 			)
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "4bcf6e93-ebd5-449e-a5fa-450f31f69833")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "8ab56769-df84-4df2-9e56-1e825b7a42d1")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "922a8445-b4a1-4e06-99ae-d88b494d6f18")
 		)
 		(instances
@@ -4985,8 +4909,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:TRIM_US-B25U")
-		(at 120.65 172.72 90)
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 120.65 172.72 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4994,7 +4919,7 @@
 		(dnp no)
 		(uuid "9138f302-6990-4e6f-af0d-d46a39315ac0")
 		(property "Reference" "R2"
-			(at 123.19 177.8 90)
+			(at 118.11 177.8 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5003,7 +4928,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 123.19 175.26 90)
+			(at 118.11 175.26 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5020,7 +4945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 120.65 172.72 0)
 			(effects
 				(font
@@ -5029,7 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trim-potentiometer, US symbol"
 			(at 120.65 172.72 0)
 			(effects
 				(font
@@ -5038,13 +4963,13 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "01a0ba1d-edaf-4931-8748-38dc4767b47c")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "6e218a5d-d4c7-4d3c-bfb6-ea58cfdaa2b9")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "e44d6d51-a143-45e0-a7fd-0a663da803cd")
 		)
 		(instances
@@ -5057,8 +4982,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 200.66 121.92 90)
+		(lib_id "Device:R_US")
+		(at 200.66 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5066,7 +4991,7 @@
 		(dnp no)
 		(uuid "928ecf41-2da2-4df9-8641-459907aa0b0b")
 		(property "Reference" "R5"
-			(at 199.1614 125.73 0)
+			(at 199.136 122.936 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5075,7 +5000,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 203.962 125.73 0)
+			(at 204.47 123.444 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5084,6 +5009,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 201.676 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -5092,16 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -5126,7 +5051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 142.24 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5170,7 +5095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -5265,8 +5190,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 129.54 95.25 180)
+		(lib_id "Device:R_US")
+		(at 129.54 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5274,7 +5199,7 @@
 		(dnp no)
 		(uuid "aed19e28-930f-4fff-9687-a2df56d4adda")
 		(property "Reference" "R9"
-			(at 133.35 96.7486 0)
+			(at 131.064 91.186 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5283,7 +5208,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 133.35 91.948 0)
+			(at 131.064 97.282 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5292,6 +5217,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 129.794 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -5300,16 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 129.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -5439,8 +5364,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 180.34 73.66 0)
+		(lib_id "power:GND")
+		(at 180.34 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5448,7 +5373,7 @@
 		(dnp no)
 		(uuid "bdef9edf-305c-47dd-a63c-3f7cebd5af12")
 		(property "Reference" "#GND2"
-			(at 180.34 73.66 0)
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +5382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 76.2 0)
+			(at 177.8 75.692 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5466,7 +5391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 73.66 0)
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 73.66 0)
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,8 +5408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,8 +5644,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 53.34 149.86 0)
+		(lib_id "power:GND")
+		(at 53.34 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5728,7 +5653,7 @@
 		(dnp no)
 		(uuid "d1092be9-74fe-40c7-9425-408d4c28a31e")
 		(property "Reference" "#GND3"
-			(at 53.34 149.86 0)
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 152.4 0)
+			(at 50.8 151.892 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5746,7 +5671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 149.86 0)
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 149.86 0)
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,8 +5688,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,8 +5710,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 238.76 121.92 90)
+		(lib_id "Device:R_US")
+		(at 238.76 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5794,7 +5719,7 @@
 		(dnp no)
 		(uuid "d42e2cf7-45e1-4ead-9d2f-49fe1791aedc")
 		(property "Reference" "R4"
-			(at 237.2614 125.73 0)
+			(at 237.236 124.46 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5803,7 +5728,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 242.062 125.73 0)
+			(at 242.57 125.222 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5812,7 +5737,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 238.76 121.92 0)
+			(at 239.776 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,8 +5745,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 238.76 121.92 0)
+		(property "Datasheet" "~"
+			(at 238.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,8 +5754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 238.76 121.92 0)
+		(property "Description" "Resistor, US symbol"
+			(at 238.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 238.76 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5898,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -5989,8 +5914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 88.9 162.56 180)
+		(lib_id "power:GND")
+		(at 88.9 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5998,7 +5923,7 @@
 		(dnp no)
 		(uuid "eefa7297-68b5-4186-ad78-dc337d873a21")
 		(property "Reference" "#GND1"
-			(at 88.9 162.56 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +5932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 160.02 0)
+			(at 91.186 160.274 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6016,7 +5941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 162.56 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +5950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 162.56 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,8 +5958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 162.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
