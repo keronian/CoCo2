@@ -2673,12 +2673,6 @@
 		(uuid "a04af958-aa43-4895-96f7-ad8010814558")
 	)
 	(junction
-		(at 142.24 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba028568-6459-47f0-8892-be09a9ae228d")
-	)
-	(junction
 		(at 53.34 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3192,16 +3186,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 120.65) (xy 142.24 125.73)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6f12259b-8987-4630-9be0-f7d211d31f70")
-	)
-	(wire
-		(pts
 			(xy 80.01 168.91) (xy 88.9 168.91)
 		)
 		(stroke
@@ -3402,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 125.73) (xy 142.24 134.62)
+			(xy 142.24 120.65) (xy 142.24 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -3479,16 +3463,6 @@
 			(type default)
 		)
 		(uuid "b244826d-ce05-4c68-a2d2-2d6f7ea08933")
-	)
-	(wire
-		(pts
-			(xy 142.24 125.73) (xy 146.05 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30d1cf4-331d-4f7a-82d5-c6656a307df4")
 	)
 	(wire
 		(pts
@@ -5024,6 +4998,72 @@
 			(project ""
 				(path "/10b578e1-d913-42e6-b9e5-398116858bd9"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d44802b-32f7-4809-a1c8-89e06e28786e")
+		(property "Reference" "#GND07"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.764 130.302 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e1ed478-c621-4cb0-8c2b-0cc6232a9fef")
+		)
+		(instances
+			(project "Coco2Composite"
+				(path "/10b578e1-d913-42e6-b9e5-398116858bd9"
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
