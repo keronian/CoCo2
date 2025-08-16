@@ -5,215 +5,6 @@
 	(uuid "59fedd81-dfb5-41c3-969a-5c6cb0470a9a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Coco2Composite-eagle-import:1N4004"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 0.4826 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 2.54 -2.3114 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Coco2Composite:DO41-10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DIODE\n\ngeneral purpose rectifier, 1 A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4004_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "SpiceOrder 1"
-					(at -2.54 0 0)
-					(effects
-						(font
-							(size 0.4064 0.3454)
-						)
-					)
-				)
-				(text "SpiceOrder 2"
-					(at 2.54 0 0)
-					(effects
-						(font
-							(size 0.4064 0.3454)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Coco2Composite-eagle-import:AUDIO_JACK_3.5MM_KIT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1799,530 +1590,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Coco2Composite-eagle-import:R-US_0204/2V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Coco2Composite:0204V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0204/2V_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Coco2Composite-eagle-import:TRIM_US-B25U"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -5.08 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Coco2Composite:B25U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "POTENTIOMETER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TRIM_US-B25U_1_0"
-				(polyline
-					(pts
-						(xy -1.016 3.81) (xy 0 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.572) (xy -1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.016 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.016 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -3.429) (xy 2.032 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -2.159) (xy 2.667 -3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -4.699) (xy 2.032 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -3.429) (xy 1.397 -3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Coco2Composite-eagle-import:VCC"
 			(power)
 			(exclude_from_sim no)
@@ -2567,12 +1834,571 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim_US"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 187.96 93.98)
+		(at 139.7 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "23006c07-4f99-4061-88d4-743eb83a7833")
+		(uuid "3b62a920-68ce-4220-b046-5c9ab09c90f1")
+	)
+	(junction
+		(at 53.34 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4772ab18-a1ee-4090-b497-3982e679ecb2")
 	)
 	(junction
 		(at 119.38 68.58)
@@ -2581,22 +2407,16 @@
 		(uuid "4fe7a88a-3876-4d96-aa8f-3907ed46a752")
 	)
 	(junction
-		(at 104.14 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cf1fbf1-fbea-4b5c-9958-51214a8cb625")
-	)
-	(junction
 		(at 259.08 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ed6b536-e78d-4d3f-a740-91f1c218a7b9")
 	)
 	(junction
-		(at 238.76 127)
+		(at 152.4 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6dd1dc11-2058-4be0-93b6-991e080ba3a7")
+		(uuid "886cdfba-4d33-4774-accb-556dc5940c12")
 	)
 	(junction
 		(at 226.06 144.78)
@@ -2611,10 +2431,22 @@
 		(uuid "9c0ad64f-579b-491c-b1c6-bf50cd71b149")
 	)
 	(junction
+		(at 238.76 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a493bcc0-16b7-45af-8e93-60c489e2164d")
+	)
+	(junction
 		(at 238.76 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0fa93a7-90bc-46b3-936d-6954acc1b184")
+	)
+	(junction
+		(at 167.64 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b35fd421-385b-42d3-9e8d-8591369dacb1")
 	)
 	(junction
 		(at 53.34 124.46)
@@ -2630,13 +2462,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 154.94) (xy 104.14 165.1)
+			(xy 132.08 109.22) (xy 132.08 129.54)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0360dd9b-1f72-4cff-aba1-4e929797a9e9")
+		(uuid "04bb3fb2-f736-4c11-aa24-0dd0316e8d75")
 	)
 	(wire
 		(pts
@@ -2650,16 +2482,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 139.7 119.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "07b0a896-bae4-4945-9cf2-a8576e19f887")
-	)
-	(wire
-		(pts
 			(xy 223.52 109.22) (xy 223.52 96.52)
 		)
 		(stroke
@@ -2670,13 +2492,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 68.58) (xy 134.62 63.5)
+			(xy 189.23 114.3) (xy 200.66 114.3)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0f3186fa-87cd-4054-8085-affb20e14849")
+		(uuid "0d637028-1fe3-40f8-8d0d-b86dfbb5d528")
 	)
 	(wire
 		(pts
@@ -2690,6 +2512,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 111.76) (xy 139.7 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1104e1be-0d8a-4e28-bc40-028171cdf210")
+	)
+	(wire
+		(pts
 			(xy 111.76 121.92) (xy 111.76 109.22)
 		)
 		(stroke
@@ -2700,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 200.66 114.3)
+			(xy 200.66 114.3) (xy 218.44 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -2740,6 +2572,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 88.9) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3b3346-7518-4db1-89b7-4c5e65c6cdb6")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 152.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbc31ff-f158-4bba-8fac-4befe7f67d12")
+	)
+	(wire
+		(pts
 			(xy 223.52 96.52) (xy 205.74 96.52)
 		)
 		(stroke
@@ -2750,7 +2602,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 129.54) (xy 124.46 60.96)
+			(xy 167.64 99.06) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211a784b-5358-436a-883f-9a0b20e5947d")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -2760,13 +2622,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 170.18) (xy 104.14 165.1)
+			(xy 123.19 163.83) (xy 69.85 163.83)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "2855e18b-4a17-4597-a535-672a1fd1770d")
+		(uuid "2b272564-7a6a-4159-a860-1ca8ae3f377c")
 	)
 	(wire
 		(pts
@@ -2790,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 114.3) (xy 104.14 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3785b8f6-ed98-4649-9ffc-367f7d0f42fe")
+	)
+	(wire
+		(pts
 			(xy 172.72 50.8) (xy 200.66 50.8)
 		)
 		(stroke
@@ -2800,13 +2672,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 109.22) (xy 238.76 116.84)
+			(xy 200.66 114.3) (xy 200.66 118.11)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "391bdd2a-f003-4c42-aeda-a175005f1a0d")
+		(uuid "3da2cb3c-6d74-42d4-94d3-e20724ca2acd")
 	)
 	(wire
 		(pts
@@ -2817,6 +2689,16 @@
 			(type solid)
 		)
 		(uuid "3e3fcc91-0186-41a8-ac65-2c2184f1f98d")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f429500-5d52-40e2-b0d9-e3618eba7407")
 	)
 	(wire
 		(pts
@@ -2850,13 +2732,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 104.14 170.18)
+			(xy 134.62 62.23) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "4705a78e-10c3-4849-bd35-1bfc6dfb6b72")
+		(uuid "48985c59-43e5-4575-bb3d-e773ca4c3acf")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b1aa979-700f-43f0-ab5d-7522bbee04a6")
 	)
 	(wire
 		(pts
@@ -2877,6 +2769,16 @@
 			(type solid)
 		)
 		(uuid "4d5c6ee5-5c92-4b1a-8ab1-6add01c655fc")
+	)
+	(wire
+		(pts
+			(xy 107.95 146.05) (xy 115.57 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4f9260ff-78c6-4f34-90d8-f2a0ad0c8cc4")
 	)
 	(wire
 		(pts
@@ -2910,23 +2812,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 200.66 114.3)
+			(xy 262.89 96.52) (xy 264.16 96.52)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "53f72f7f-205c-462b-ae29-bd1a54be0fe5")
-	)
-	(wire
-		(pts
-			(xy 109.22 144.78) (xy 119.38 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "548cb6a6-9539-4c9c-9d54-fe979e2d4e60")
+		(uuid "54868a7c-82ce-417b-b638-ab565e729eea")
 	)
 	(wire
 		(pts
@@ -2950,13 +2842,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 134.62 53.34)
+			(xy 104.14 157.48) (xy 111.76 157.48)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5e45b4c3-410b-46d2-8d9d-bb86057299f8")
+		(uuid "6024e2c1-6ea2-4bf1-b264-e96d26930e4e")
 	)
 	(wire
 		(pts
@@ -2967,6 +2859,16 @@
 			(type solid)
 		)
 		(uuid "60530db8-bb49-4346-a217-75bf3a64eda8")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 134.62 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "659c6114-ab8c-44e0-99ad-7d1000de3547")
 	)
 	(wire
 		(pts
@@ -3010,6 +2912,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 99.06) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77c08944-6d7b-4aa8-b62f-d431c0aaad8d")
+	)
+	(wire
+		(pts
 			(xy 119.38 68.58) (xy 134.62 68.58)
 		)
 		(stroke
@@ -3017,6 +2929,16 @@
 			(type solid)
 		)
 		(uuid "79618988-d4e6-4cc7-9ac6-183febfa4953")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c829bb4-53fb-4c66-9d85-aa4310296f06")
 	)
 	(wire
 		(pts
@@ -3050,13 +2972,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 109.22 99.06)
+			(xy 104.14 99.06) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "89c6ce9e-1473-4b60-abb3-0b8ec897c6fd")
+	)
+	(wire
+		(pts
+			(xy 69.85 146.05) (xy 53.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903af9b4-8120-4ba9-8ab4-b02993553574")
 	)
 	(wire
 		(pts
@@ -3110,7 +3042,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 180.34 114.3)
+			(xy 154.94 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bada33c-33f9-4e07-a802-5b5105081cea")
+	)
+	(wire
+		(pts
+			(xy 172.72 114.3) (xy 181.61 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -3120,13 +3062,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 137.16 101.6)
+			(xy 238.76 109.22) (xy 238.76 119.38)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "a60b289b-beb5-4d10-8f13-2d799dde4230")
+		(uuid "9ec1a936-6742-4d52-aa0a-1b9feb27a185")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10145bd-c1f9-4499-b711-043ffb257882")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 119.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a789f1e8-43b8-447b-ad72-0ea649d875e8")
 	)
 	(wire
 		(pts
@@ -3170,6 +3132,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 116.84) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2aba9b-524f-4755-a913-7575f3ff2ae6")
+	)
+	(wire
+		(pts
 			(xy 58.42 91.44) (xy 38.1 91.44)
 		)
 		(stroke
@@ -3187,6 +3159,16 @@
 			(type solid)
 		)
 		(uuid "b18caf65-dffc-4217-8780-832e7df0449b")
+	)
+	(wire
+		(pts
+			(xy 123.19 157.48) (xy 123.19 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25939d8-bafc-466d-9a4f-1172ebec2eee")
 	)
 	(wire
 		(pts
@@ -3210,6 +3192,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 125.73) (xy 200.66 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "be4738ef-266b-40bb-a756-31ff20c8f40c")
+	)
+	(wire
+		(pts
 			(xy 200.66 127) (xy 238.76 127)
 		)
 		(stroke
@@ -3220,33 +3212,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 137.16 101.6)
+			(xy 139.7 111.76) (xy 144.78 111.76)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c3bf89db-3eee-422d-aa39-6ed5e1ade124")
+		(uuid "c48488e7-3d5f-41bb-ab9b-04f541c0fbbf")
 	)
 	(wire
 		(pts
-			(xy 53.34 139.7) (xy 53.34 147.32)
+			(xy 53.34 139.7) (xy 53.34 146.05)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "c4df5549-16d8-4363-bcd5-2b65beb945e9")
-	)
-	(wire
-		(pts
-			(xy 200.66 114.3) (xy 200.66 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c54075ff-fa27-4c12-a6de-1c2626e18912")
 	)
 	(wire
 		(pts
@@ -3280,6 +3262,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 146.05) (xy 53.34 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cca627db-c45e-4725-b074-7a99628db119")
+	)
+	(wire
+		(pts
 			(xy 116.84 114.3) (xy 127 114.3)
 		)
 		(stroke
@@ -3290,13 +3282,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 132.08 109.22)
+			(xy 69.85 163.83) (xy 69.85 146.05)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "d2969fc0-978a-40d4-ae36-e544ff79fa91")
+		(uuid "cf26841c-92b6-4aef-ae88-048180ee7106")
 	)
 	(wire
 		(pts
@@ -3320,6 +3312,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 100.33) (xy 259.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94932bf-c8de-41f7-844a-792f09dbe2c4")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc5335c4-cf30-4a84-8d5b-69fe1b1a45a1")
+	)
+	(wire
+		(pts
 			(xy 200.66 88.9) (xy 200.66 91.44)
 		)
 		(stroke
@@ -3330,7 +3342,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 109.22 144.78)
+			(xy 134.62 106.68) (xy 134.62 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5e42072-112f-41cb-ab68-d4825af4b3e3")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 107.95 146.05)
 		)
 		(stroke
 			(width 0.1524)
@@ -3340,63 +3362,43 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 129.54) (xy 134.62 106.68)
+			(xy 152.4 113.03) (xy 167.64 113.03)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e8b0c6fc-8649-4cee-8a91-6d461363e6f5")
+		(uuid "e90358fb-551a-4785-b191-95e19c0e6610")
 	)
 	(wire
 		(pts
-			(xy 129.54 129.54) (xy 129.54 111.76)
+			(xy 152.4 99.06) (xy 152.4 104.14)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "f4c7d13a-fc94-4ba5-a64b-06ab272f5b55")
+		(uuid "f21d0447-8d51-4457-a40c-37c06d2bab82")
 	)
 	(wire
 		(pts
-			(xy 119.38 144.78) (xy 119.38 165.1)
+			(xy 115.57 151.13) (xy 115.57 153.67)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "f604f478-4326-4843-bc7a-efe57e325986")
+		(uuid "f91df9cf-c321-44b8-bb64-dd0126efe628")
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 187.96 93.98)
+			(xy 119.38 157.48) (xy 123.19 157.48)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "f87035fc-08ea-4195-b21c-54a20595365f")
-	)
-	(wire
-		(pts
-			(xy 187.96 99.06) (xy 187.96 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f94578f2-5562-4340-b5df-aaeb416a3434")
-	)
-	(wire
-		(pts
-			(xy 104.14 114.3) (xy 104.14 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fba876c8-2508-4d10-bcd8-2339853607d7")
+		(uuid "fbf8d127-362d-4a78-a9ef-6e89d941429a")
 	)
 	(wire
 		(pts
@@ -3407,6 +3409,86 @@
 			(type solid)
 		)
 		(uuid "fe042e72-616e-4ff8-b13d-486bb2ee681c")
+	)
+	(label "SND"
+		(at 137.16 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f244ffc-491f-4f88-a53f-b7f5b726f348")
+	)
+	(label "SND_OUT"
+		(at 187.96 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22085392-df3b-4ddb-8936-0e01efcc1bdb")
+	)
+	(label "COMP_OUT"
+		(at 172.72 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d7dd01f-bd2b-4164-aeaf-e6da53b2cea7")
+	)
+	(label "CLK"
+		(at 124.46 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99e51b9c-8dfc-4c91-82d2-7d2bc61dcf24")
+	)
+	(label "Y"
+		(at 134.62 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9df226ad-47f7-4912-9e86-c935cb100e69")
+	)
+	(label "CHB"
+		(at 129.54 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd369c8e-1ee7-42d9-a328-4ba8a12895cd")
+	)
+	(label "PHI-A"
+		(at 132.08 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8a31e18-02d4-425f-b361-5cde41182066")
+	)
+	(label "PHI-B"
+		(at 127 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e761a9c1-5485-4aef-8c71-dfe226f03ebf")
 	)
 	(symbol
 		(lib_id "Coco2Composite-eagle-import:BC547")
@@ -3548,8 +3630,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:TRIM_US-B25U")
-		(at 157.48 101.6 180)
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 158.75 99.06 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3557,7 +3640,7 @@
 		(dnp no)
 		(uuid "16441888-01b6-4ccc-aaf4-c5b1bf6b2e51")
 		(property "Reference" "R8"
-			(at 162.56 99.06 90)
+			(at 154.178 93.218 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3565,8 +3648,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3.3k"
-			(at 160.02 99.06 90)
+		(property "Value" "1k"
+			(at 157.734 101.092 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3575,7 +3658,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 157.48 101.6 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,8 +3666,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 157.48 101.6 0)
+		(property "Datasheet" "~"
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,8 +3675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 157.48 101.6 0)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,13 +3684,13 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "1446b551-cded-459d-aa54-156737ff2401")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "168b8b77-8e43-4d68-b867-358ca2660144")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "e6386f80-561a-4dd1-b470-151e3ee936b2")
 		)
 		(instances
@@ -3620,8 +3703,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 200.66 121.92 90)
+		(lib_id "Device:R_US")
+		(at 200.66 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3629,7 +3712,7 @@
 		(dnp no)
 		(uuid "164d2e8b-ad85-466b-8322-20753ff06e30")
 		(property "Reference" "R5"
-			(at 199.1614 125.73 0)
+			(at 198.882 123.19 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3638,7 +3721,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 203.962 125.73 0)
+			(at 204.47 123.952 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3647,6 +3730,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 201.676 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -3655,16 +3747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.66 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -3755,8 +3838,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:TRIM_US-B25U")
-		(at 111.76 165.1 270)
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 115.57 157.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3764,7 +3848,7 @@
 		(dnp no)
 		(uuid "2aaf9d09-ebfc-4b7e-860f-f4d30a9e9760")
 		(property "Reference" "R2"
-			(at 109.22 160.02 90)
+			(at 113.03 162.56 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3773,7 +3857,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 109.22 162.56 90)
+			(at 113.03 160.02 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3782,7 +3866,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 111.76 165.1 0)
+			(at 115.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,8 +3874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 165.1 0)
+		(property "Datasheet" "~"
+			(at 115.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,8 +3883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 111.76 165.1 0)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 115.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,13 +3892,13 @@
 				(hide yes)
 			)
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "9b6ee6f0-0e53-403b-aa5a-76ee3add3153")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "9ef0aa20-549a-41eb-9fda-727deee83ab5")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "8fead79b-4be1-4b34-829d-cb1b94b27f64")
 		)
 		(instances
@@ -3893,8 +3977,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:1N4004")
-		(at 119.38 73.66 270)
+		(lib_id "Diode:1N4148")
+		(at 119.38 72.39 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3902,7 +3987,7 @@
 		(dnp no)
 		(uuid "4bde1252-304c-4661-a7af-9ffa9f880a36")
 		(property "Reference" "D1-1N4001"
-			(at 122.4026 68.58 0)
+			(at 122.4026 77.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3910,8 +3995,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4004"
-			(at 114.5286 68.58 0)
+		(property "Value" "1N4148"
+			(at 114.5286 77.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -3919,8 +4004,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 119.38 73.66 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,8 +4013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 73.66 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,8 +4022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 73.66 0)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,10 +4031,26 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Sim.Device" "D"
+			(at 117.602 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.412 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "bed735aa-6253-49bd-b54a-ba17f43f8ff0")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "9fa27b76-957d-4dff-8713-d0d1d1d17f49")
 		)
 		(instances
@@ -4029,7 +4130,7 @@
 	)
 	(symbol
 		(lib_id "Coco2Composite-eagle-import:VCC")
-		(at 139.7 116.84 0)
+		(at 139.7 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4037,7 +4138,7 @@
 		(dnp no)
 		(uuid "59a62dad-0d4c-4869-9ee5-eff2820813f3")
 		(property "Reference" "#P+1"
-			(at 139.7 116.84 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4147,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 142.24 116.84 90)
+			(at 142.24 109.22 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4055,7 +4156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 116.84 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 116.84 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 116.84 0)
+			(at 139.7 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:TRIM_US-B25U")
+		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 259.08 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4216,7 +4317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 259.08 96.52 0)
 			(effects
 				(font
@@ -4225,7 +4326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trim-potentiometer, US symbol"
 			(at 259.08 96.52 0)
 			(effects
 				(font
@@ -4234,13 +4335,13 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "722f2fc6-224e-4dcb-a5ab-f58c06cb3ed6")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "adb30266-94a7-4c6a-807f-60446c5b8c78")
 		)
-		(pin "E"
+		(pin "2"
 			(uuid "0a68667d-273e-4f77-b621-a772ea4ecbde")
 		)
 		(instances
@@ -4253,8 +4354,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 134.62 58.42 90)
+		(lib_id "Device:R_US")
+		(at 134.62 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4262,7 +4363,7 @@
 		(dnp no)
 		(uuid "65897831-7d97-438f-9973-5502b406ffd4")
 		(property "Reference" "R1"
-			(at 133.1214 62.23 0)
+			(at 132.842 60.198 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4271,7 +4372,7 @@
 			)
 		)
 		(property "Value" "360"
-			(at 137.922 62.23 0)
+			(at 138.43 60.452 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4280,6 +4381,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.636 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -4288,16 +4398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -4323,15 +4424,15 @@
 	)
 	(symbol
 		(lib_id "Coco2Composite-eagle-import:GND")
-		(at 187.96 106.68 0)
+		(at 144.78 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6d6e6174-3761-4fc6-bb1f-179e4101b659")
-		(property "Reference" "#GND6"
-			(at 187.96 106.68 0)
+		(uuid "67773e13-ccc9-4ac6-925c-54b19dd1130f")
+		(property "Reference" "#GND07"
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 109.22 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4349,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 106.68 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 106.68 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4468,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 106.68 0)
+			(at 144.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c7d2c9-07a1-41a9-8c13-a267a381c160")
+		)
+		(instances
+			(project "Coco2Composite-Vertical"
+				(path "/59fedd81-dfb5-41c3-969a-5c6cb0470a9a"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Coco2Composite-eagle-import:GND")
+		(at 167.64 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d6e6174-3761-4fc6-bb1f-179e4101b659")
+		(property "Reference" "#GND6"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,6 +4700,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 144.78 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e692e45-21b3-4cb7-9af0-bca99baf8fd9")
+		(property "Reference" "C4"
+			(at 143.002 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 142.494 118.618 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75568ea2-8f04-49d5-994c-4f7d366c4263")
+		)
+		(pin "1"
+			(uuid "972dc1f7-321f-4b35-86a2-413d870e3a55")
+		)
+		(instances
+			(project "Coco2Composite-Vertical"
+				(path "/59fedd81-dfb5-41c3-969a-5c6cb0470a9a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Coco2Composite-eagle-import:VCC")
 		(at 134.62 43.18 0)
 		(unit 1)
@@ -4600,7 +4836,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 104.14 152.4 0)
+		(at 115.57 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4608,7 +4844,7 @@
 		(dnp no)
 		(uuid "ab347af8-dc35-4f50-b283-48ca810811fa")
 		(property "Reference" "C1"
-			(at 105.156 151.765 0)
+			(at 116.586 147.955 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4617,7 +4853,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 105.156 156.591 0)
+			(at 116.586 152.781 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4626,7 +4862,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 104.14 152.4 0)
+			(at 115.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +4871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 152.4 0)
+			(at 115.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +4880,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 104.14 152.4 0)
+			(at 115.57 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,8 +4904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 238.76 121.92 90)
+		(lib_id "Device:R_US")
+		(at 238.76 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4677,7 +4913,7 @@
 		(dnp no)
 		(uuid "ad385022-4ca7-4add-b0f7-ea108d6a32de")
 		(property "Reference" "R4"
-			(at 237.2614 125.73 0)
+			(at 236.982 124.968 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4686,7 +4922,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 242.062 125.73 0)
+			(at 242.57 125.222 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4695,7 +4931,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 238.76 121.92 0)
+			(at 239.776 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,8 +4939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 238.76 121.92 0)
+		(property "Datasheet" "~"
+			(at 238.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,8 +4948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 238.76 121.92 0)
+		(property "Description" "Resistor, US symbol"
+			(at 238.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4974,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 187.96 96.52 0)
+		(at 152.4 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4746,7 +4982,7 @@
 		(dnp no)
 		(uuid "b28400c0-b87b-4a03-8530-e0760e96fb2c")
 		(property "Reference" "C3"
-			(at 188.976 95.885 0)
+			(at 148.844 105.156 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4755,7 +4991,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 188.976 100.711 0)
+			(at 149.098 110.998 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4764,7 +5000,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 187.96 96.52 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +5009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 96.52 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +5018,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 187.96 96.52 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,16 +5279,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 220.98 114.3 180)
+		(lib_id "Device:R_US")
+		(at 140.97 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c1dd95ea-8bd8-4ef8-8685-0223338f800e")
-		(property "Reference" "R6"
-			(at 224.79 115.7986 0)
+		(uuid "c1a6adf8-27ea-472b-b5bf-9574dbd243fc")
+		(property "Reference" "R9"
+			(at 142.494 95.504 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5060,8 +5296,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3k9"
-			(at 224.79 110.998 0)
+		(property "Value" "1k"
+			(at 141.986 100.838 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5070,7 +5306,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 220.98 114.3 0)
+			(at 141.224 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,8 +5314,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 220.98 114.3 0)
+		(property "Datasheet" "~"
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,8 +5323,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 114.3 0)
+		(property "Description" "Resistor, US symbol"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c851fd2-31bf-44f5-a597-f0e304146817")
+		)
+		(pin "2"
+			(uuid "5c856487-0ea1-41c4-b3cb-9cd7b8ae3c8c")
+		)
+		(instances
+			(project "Coco2Composite-Vertical"
+				(path "/59fedd81-dfb5-41c3-969a-5c6cb0470a9a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 222.25 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1dd95ea-8bd8-4ef8-8685-0223338f800e")
+		(property "Reference" "R6"
+			(at 224.028 110.49 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3k9"
+			(at 224.282 116.078 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 222.504 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 222.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,8 +5417,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Coco2Composite-eagle-import:R-US_0204/2V")
-		(at 185.42 114.3 180)
+		(lib_id "Device:R_US")
+		(at 185.42 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5121,7 +5426,7 @@
 		(dnp no)
 		(uuid "d2b01738-4371-4f81-b5ff-e1a238189cb5")
 		(property "Reference" "R7"
-			(at 189.23 115.7986 0)
+			(at 186.944 110.744 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5130,7 +5435,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 189.23 110.998 0)
+			(at 186.436 116.078 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5139,6 +5444,15 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 185.674 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 185.42 114.3 0)
 			(effects
 				(font
@@ -5147,16 +5461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 185.42 114.3 0)
 			(effects
 				(font
