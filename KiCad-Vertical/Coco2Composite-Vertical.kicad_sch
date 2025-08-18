@@ -3974,7 +3974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Modified:Potentiometer_Bourns_3266Y_Vertical"
 			(at 158.75 99.06 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Modified:Potentiometer_Bourns_3266Y_Vertical"
 			(at 115.57 157.48 0)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Modified:Potentiometer_Bourns_3266Y_Vertical"
 			(at 259.08 96.52 0)
 			(effects
 				(font
@@ -5896,7 +5896,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 241.3 104.14 0)
 			(effects
 				(font
