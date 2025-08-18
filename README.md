@@ -8,6 +8,8 @@ Grounding seems to work great so far, we'll see if I have issues with it backing
 
 Okay, latest version is a LITTLE experimental, with some advice from captainkirchoff in Discord, I've tweaked some resistors and added a circuit that MIGHT work for letting the channel select switch disable color.  The version from 8/14 is mostly fine, but I DID swap the silkscreens for R7 and R5, so be aware of that if you order it.
 
+Vertical version has also had a switch added to replicate the same functionality for that board as of 2025/8/18... I used a SLW-1298856-5A-RA-N-D (will be in the BOM) - Had to import the footprint for it, so if you work on the board you'll need to grab that library from them.
+
 Note that you can increase the value of the C4 capacitor and get better noise reduction, but ceramic caps are still preferred.
 
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.

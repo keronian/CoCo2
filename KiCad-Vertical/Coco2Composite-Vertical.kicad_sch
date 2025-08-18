@@ -2191,6 +2191,227 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SLW-1298856-5A-RA-N-D:SLW-1298856-5A-RA-N-D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SLW-1298856-5A-RA-N-D"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SLW-1298856-5A-RA-N-D:SW_SLW-1298856-5A-RA-N-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SLW-1298856-5A-RA-N-D_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2419,6 +2640,12 @@
 		)
 	)
 	(junction
+		(at 115.57 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a589991-15b2-4a72-9f31-2ed6dfa97fae")
+	)
+	(junction
 		(at 167.64 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2509,6 +2736,16 @@
 			(type solid)
 		)
 		(uuid "067c4c92-711d-4848-8dd6-6a40cddd7fc3")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 115.57 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "077e89bf-a229-477e-874b-2e3fd5610c7d")
 	)
 	(wire
 		(pts
@@ -2662,6 +2899,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 161.29) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30deb850-5322-4a0f-9b5e-f892822d2317")
+	)
+	(wire
+		(pts
 			(xy 53.34 76.2) (xy 53.34 60.96)
 		)
 		(stroke
@@ -2802,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 146.05) (xy 115.57 146.05)
+			(xy 106.68 139.7) (xy 115.57 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -2869,6 +3116,16 @@
 			(type solid)
 		)
 		(uuid "5be9991c-65e9-4bdb-b4b8-330b23d0dff8")
+	)
+	(wire
+		(pts
+			(xy 134.62 161.29) (xy 125.73 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601f21ec-0332-477e-a8d4-336953bdd767")
 	)
 	(wire
 		(pts
@@ -3002,7 +3259,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 107.95 99.06)
+			(xy 104.14 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -3039,6 +3296,16 @@
 			(type solid)
 		)
 		(uuid "92130e57-4b0c-4dbe-8491-270a586ff0fe")
+	)
+	(wire
+		(pts
+			(xy 125.73 151.13) (xy 115.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9975864d-c743-4480-8060-9cc60f2ee235")
 	)
 	(wire
 		(pts
@@ -3149,6 +3416,16 @@
 			(type solid)
 		)
 		(uuid "ab093259-326e-4d05-8d2a-5e97ff36201a")
+	)
+	(wire
+		(pts
+			(xy 115.57 151.13) (xy 115.57 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8260c8-7b3d-4503-9950-bb92215175a3")
 	)
 	(wire
 		(pts
@@ -3392,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 107.95 146.05)
+			(xy 106.68 99.06) (xy 106.68 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -3422,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 151.13) (xy 115.57 153.67)
+			(xy 115.57 147.32) (xy 115.57 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4876,7 +5153,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 115.57 148.59 0)
+		(at 115.57 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4884,7 +5161,7 @@
 		(dnp no)
 		(uuid "ab347af8-dc35-4f50-b283-48ca810811fa")
 		(property "Reference" "C1"
-			(at 116.586 147.955 0)
+			(at 116.586 144.145 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4893,7 +5170,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 116.586 152.781 0)
+			(at 116.586 148.971 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4902,7 +5179,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 115.57 148.59 0)
+			(at 115.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +5188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 148.59 0)
+			(at 115.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +5197,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 115.57 148.59 0)
+			(at 115.57 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,6 +5734,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd185896-7df1-4ad0-aa53-9528675d7fe5")
+		(property "Reference" "#GND08"
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.194 166.37 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f91edf6-3216-46d5-ad8d-7e0c79f2f4ca")
+		)
+		(instances
+			(project "Coco2Composite-Vertical"
+				(path "/59fedd81-dfb5-41c3-969a-5c6cb0470a9a"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 185.42 114.3 90)
 		(unit 1)
@@ -5662,6 +6005,118 @@
 			(project ""
 				(path "/59fedd81-dfb5-41c3-969a-5c6cb0470a9a"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SLW-1298856-5A-RA-N-D:SLW-1298856-5A-RA-N-D")
+		(at 142.24 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6cfade7-0c98-495e-9fdf-e3b973e40113")
+		(property "Reference" "S1"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLW-1298856-5A-RA-N-D"
+			(at 142.24 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Imported:SW_SLW-1298856-5A-RA-N-D"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3mm"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9bf1694-106e-4e20-9921-0e4a2ef648e7")
+		)
+		(pin "3"
+			(uuid "0970bd20-0d29-4a09-9abd-e2920c2f2c93")
+		)
+		(pin "2"
+			(uuid "10be6b5b-fcc6-40ab-b470-6595b590107c")
+		)
+		(instances
+			(project ""
+				(path "/59fedd81-dfb5-41c3-969a-5c6cb0470a9a"
+					(reference "S1")
 					(unit 1)
 				)
 			)
