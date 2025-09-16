@@ -454,6 +454,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -512,7 +513,7 @@
       "plot": "Outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Coco2Composite-Vertical-board.step",
       "svg": "",
       "vrml": ""
     },

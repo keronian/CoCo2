@@ -6,11 +6,13 @@ Re-did the whole board in KiCad.  There are two versions, the vertical one that'
 ![Lug Mount](solder_lug_mount.jpg?raw=true)
 Grounding seems to work great so far, we'll see if I have issues with it backing out.  This is the first time I've tried doing anything with KiCad, so... hopefully it's not terrible.
 
-Okay, latest version is a LITTLE experimental, with some advice from captainkirchoff in Discord, I've tweaked some resistors and added a circuit that MIGHT work for letting the channel select switch disable color.  The version from 8/14 is mostly fine, but I DID swap the silkscreens for R7 and R5, so be aware of that if you order it.
+Okay, latest version has some changes... with some advice from captainkirchoff in Discord, I've tweaked some resistors and added a circuit that let the channel select switch disable color.  Please note that this is really only for monochrome monitors, as it completely suppresses the chroma signal, which causes some weird artifacting in color monitors.
 
 Vertical version has also had a switch added to replicate the same functionality for that board as of 2025/8/18... I used a SLW-1298856-5A-RA-N-D (will be in the BOM) - Had to import the footprint for it, so if you work on the board you'll need to grab that library from them.
 
 Note that you can increase the value of the C4 capacitor and get better noise reduction, but ceramic caps are still preferred.
+
+The vertical version ALSO now has slots for support brackets... and a set of gerbers to create those support brackets.  The way I set it up is that you can slip a thin metal tab into the slot after it's slotted into the board, then you solder the whole thing together... I haven't tested this fully yet, will take pictures once I get that order in.
 
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.
 

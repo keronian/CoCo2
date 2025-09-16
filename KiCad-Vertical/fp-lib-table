@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Coco2Composite")(type "KiCad")(uri "$(KIPRJMOD)/Coco2Composite-Vertical.pretty")(options "")(descr ""))
   (lib (name "Imported")(type "KiCad")(uri "C:/Utils/KiCad/footprints")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom.pretty")(options "")(descr ""))
 )
