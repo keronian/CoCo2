@@ -16,7 +16,7 @@ The vertical board's support brackets are set up so that you can slip a thin met
 
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.
 
-Horizontal Board pics
+# Horizontal Board pics
 
 ![Horizontal Board Top](horizontal_board_top.jpg?raw=true)
 ![Horizontal Board Side](horizontal_board_side.jpg?raw=true)
