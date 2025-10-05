@@ -8,13 +8,14 @@ Grounding seems to work great so far, we'll see if I have issues with it backing
 
 With some advice from captainkirchoff in Discord, I've tweaked some resistors and added a circuit that let the channel select switch disable color.  Please note that this is really only for monochrome monitors, as it completely suppresses the chroma signal, which causes some weird artifacting in many color monitors.
 
-Vertical version has also had a switch added to replicate the same functionality for that board as of 2025/8/18... I used a SLW-1298856-5A-RA-N-D (will be in the BOM) - Had to import the footprint for it, so if you work on the board you'll need to grab that library from them.
+Vertical version has also had a switch added to replicate the same functionality for that board... I used a SLW-1298856-5A-RA-N-D (will be in the BOM) - Had to import the footprint for it, so if you work on the board you'll need to grab that library from them.
 
-Note that you can increase the value of the C4 capacitor and get better noise reduction, but ceramic caps are still preferred.
+Note that you can increase the value of the C4 capacitor and get better noise reduction (suggested value can go up to 10uF), but ceramic caps are still preferred.
 
 The vertical board's support brackets are set up so that you can slip a thin metal tab (I cut a piece off of one of the solder lugs in the BOM) into the slot after it's slotted into the board, then you add solder to create the joint.
 ![Vertical Board Support Joint](vertical_board_support_joint.jpg?raw=true)
-Overall fitment suggestion would be to solder the smaller supports to the back side of the board along with the headers (the size of header is VERY important, the BOM has the right size) - Then you slip it into place on the board with the longer supports just dry fit.. make sure everything is where you want it, then solder the longer supports into place, and finish by soldering the underside of the motherboard.
+
+Overall fitment suggestion would be to solder the smaller supports to the back side of the board along with the headers (the size of header is VERY important, the BOM has the right size) - Then you slip it into place on the board with the longer supports just dry fit.. make sure everything is where you want it, then solder the longer supports into place, and finish by soldering the underside of the motherboard.  On mine, this resulted in a very solidly mounted board that would hardly wiggle.
 
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.
 
