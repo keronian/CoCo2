@@ -12,7 +12,9 @@ Vertical version has also had a switch added to replicate the same functionality
 
 Note that you can increase the value of the C4 capacitor and get better noise reduction, but ceramic caps are still preferred.
 
-The vertical board's support brackets are set up so that you can slip a thin metal tab into the slot after it's slotted into the board, then you solder the whole thing together... I haven't tested this fully yet, will take pictures once I get that order in.
+The vertical board's support brackets are set up so that you can slip a thin metal tab (I cut a piece off of one of the solder lugs in the BOM) into the slot after it's slotted into the board, then you add solder to create the joint.
+![Vertical Board Support Joint](vertical_board_support_joint.jpg?raw=true)
+Overall fitment suggestion would be to solder the smaller supports to the back side of the board along with the headers (the size of header is VERY important, the BOM has the right size) - Then you slip it into place on the board with the longer supports just dry fit.. make sure everything is where you want it, then solder the longer supports into place, and finish by soldering the underside of the motherboard.
 
 https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for the board, with the updated transistors to make sure they were options that would be available and an audio jack that should fit the footprint I had on the board.
 
@@ -20,3 +22,8 @@ https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for 
 
 ![Horizontal Board Top](horizontal_board_top.jpg?raw=true)
 ![Horizontal Board Side](horizontal_board_side.jpg?raw=true)
+
+#Vertical Board pics
+
+![Vertical Board Top](vertical_board_front.jpg?raw=true)
+![Vertical Board Side](vertical_board_back.jpg?raw=true)
