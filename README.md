@@ -24,7 +24,7 @@ https://www.digikey.com/en/mylists/list/GH709EISJW - This is the parts list for 
 ![Horizontal Board Top](horizontal_board_top.jpg?raw=true)
 ![Horizontal Board Side](horizontal_board_side.jpg?raw=true)
 
-#Vertical Board pics
+# Vertical Board pics
 
 ![Vertical Board Top](vertical_board_front.jpg?raw=true)
 ![Vertical Board Side](vertical_board_back.jpg?raw=true)
